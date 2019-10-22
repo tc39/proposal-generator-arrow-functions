@@ -1,8 +1,8 @@
 # ECMAScript proposal: Generator Arrow Functions
 
-**Authors**: TBA
+**Authors**: Sergey Rubanov
 
-**Champion**: TBA
+**Champion**: Brendan Eich (?)
 
 **Stage**: Stage 1 of [the TC39 process](https://tc39.github.io/process-document/).
 
@@ -20,6 +20,10 @@ Both [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 
 ## Possible solutions
 
+Discussion of future syntax: https://github.com/chicoxyzzy/proposal-generator-arrow-functions/issues/2
+
+### Arrow function syntax
+
 ```js
 // Irregular
 () =*> ...
@@ -34,7 +38,18 @@ Both [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 *() => ...
 ```
 
-Discussion of future syntax: https://github.com/chicoxyzzy/proposal-generator-arrow-functions/issues/2
+### Introduce new `generator` keyword for both `function` and arrow function
+
+```js
+generator function() {}
+const foo = async generator function() {};
+
+class Foo {
+  x = 1
+  // No more ASI hazard!
+  generator foo() {}
+}
+```
 
 ## TC39 meeting notes
 
