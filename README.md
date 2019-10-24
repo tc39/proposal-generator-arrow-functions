@@ -16,11 +16,11 @@ Both [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 ## Use cases
 
 - [3 years old React example](https://gist.github.com/threepointone/014954c9270749d0b1d1051c12a705af)
-- need more [use-cases](https://github.com/chicoxyzzy/proposal-generator-arrow-functions/issues/1)
+- need more [use-cases](https://github.com/tc39/proposal-generator-arrow-functions/issues/1)
 
 ## Possible solutions
 
-Discussion of future syntax: https://github.com/chicoxyzzy/proposal-generator-arrow-functions/issues/2
+Discussion of future syntax: https://github.com/tc39/proposal-generator-arrow-functions/issues/2
 
 ### Arrow function syntax
 
