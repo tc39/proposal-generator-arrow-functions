@@ -57,6 +57,11 @@ class Foo {
 - [27 September 2016](https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-27.md#11ic-generator-arrow-functions)
 - [29 September 2016](https://github.com/tc39/tc39-notes/blob/master/meetings/2016-09/sept-29.md#arrow-generator-revisit)
 
+## Prior discussions
+
+- https://esdiscuss.org/topic/why-do-generator-expressions-return-generators
+- https://esdiscuss.org/topic/generator-arrow-functions
+
 ## Implementations
 
 - none yet
