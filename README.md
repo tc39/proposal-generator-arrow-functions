@@ -2,7 +2,7 @@
 
 **Authors**: Sergey Rubanov
 
-**Champion**: Brendan Eich (?)
+**Champion**: [Hemanth HM](https://github.com/hemanth), Brendan Eich (?)
 
 **Stage**: Stage 1 of [the TC39 process](https://tc39.github.io/process-document/).
 
